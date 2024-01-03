@@ -44,19 +44,19 @@ pip install -r requirements.txt
 
 ## Required files
 
-If you want to reproduce our results, you can download the data from [here](https://doi.org/10.5281/zenodo.7674019).
+If you want to reproduce our results, you can download the data from [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)).
 
 ## Implementation
 
 **Step 1:** Download data. 
 
-Due to the huge amount of raw data in The Cancer Genome Atlas (TCGA), I will only take breast cancer(BRCA) as an example to introduce the processing of the raw data, the data are available for download at [here](https://doi.org/10.5281/zenodo.7674019) (See `/Raw_Data` for raw data of BRCA, other raw cancer data you can download from TCGA), and the specific process is described in `./Preprocessing`
+Due to the huge amount of raw data in The Cancer Genome Atlas (TCGA), I will only take breast cancer(BRCA) as an example to introduce the processing of the raw data, the data are available for download at [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)) (See `/Raw_Data` for raw data of BRCA, other raw cancer data you can download from TCGA), and the specific process is described in `./Preprocessing`
 
-At the same time, the remaining processed cancer data is also available [here](https://doi.org/10.5281/zenodo.7674019).
+At the same time, the remaining processed cancer data is also available [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)).
 
 **Step 2:** Network construction.
 
-Before proceeding with the network construction, make sure you have downloaded the data from [here](https://doi.org/10.5281/zenodo.7674019), then put the `data` from the downloaded files into `./Network` and put the `ceRNA` directory in `./Network/ceRNA`.
+Before proceeding with the network construction, make sure you have downloaded the data from [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)), then put the `data` from the downloaded files into `./Network` and put the `ceRNA` directory in `./Network/ceRNA`.
 
 1、 Construct specific networks
 
@@ -79,13 +79,13 @@ You can use the following code to convert an adjacency matrix to an adjacency ta
 matlab demo_pair2table.m
 ```
 
-Here we also provide all the cancers we use that have been constructed for the network, which you can find [here](https://doi.org/10.5281/zenodo.7674019)(See `/Network_Data` for individual cancer networks).
+Here we also provide all the cancers we use that have been constructed for the network, which you can find [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976))(See `/Network_Data` for individual cancer networks).
 
 **Step 3:** Network embedding.
 
 Before performing the network embedding you need to ensure that the network data has been placed in `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
 
-If you want to do network embedding directly, you can use the [network data](https://doi.org/10.5281/zenodo.7674019)(`/Network_Data`) we have already constructed, and you will need to put it into `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
+If you want to do network embedding directly, you can use the [network data]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976))(`/Network_Data`) we have already constructed, and you will need to put it into `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
 
 ```
 cd ./Cancer_MANE/attention/Node_Classification
@@ -105,7 +105,7 @@ python Driver_prediction.py
 
 **Step 4:** Experiment.
 
-
+You can use the documentation in Experiment to perform ablation experiments and randomized gene pooling experiments.
 
 ##  Data collection
 
