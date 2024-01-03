@@ -18,7 +18,7 @@ The project consists of four main parts:
 4. Experiment:`/Experiment` (including Performance Comparison, Network Evaluation, Ablation Experiment, Survival Analysis.)
 5. Visualization: `/Plot`
 
-IMI-driver combines matlab and python development. It uses matlab for Data preprocessing and Network embedding, and python for the other parts.
+Due to the fact that many network construction algorithms stem from methods previously developed in our laboratory, and these methods were implemented using MATLAB, our project employs both MATLAB and Python for development. MATLAB is primarily utilized for data preprocessing and network construction, while Python code handles network embedding, model construction, and validation. Recognizing that many developers are more accustomed to using Python, users can start directly from step 3, leveraging the network data preconstructed using our MATLAB code.
 
 ## Installation & Dependencies
 
@@ -44,19 +44,19 @@ pip install -r requirements.txt
 
 ## Required files
 
-If you want to reproduce our results, you can download the data from [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)).
+If you want to reproduce our results, you can download the data from [here](https://doi.org/10.5281/zenodo.7674019).
 
 ## Implementation
 
 **Step 1:** Download data. 
 
-Due to the huge amount of raw data in The Cancer Genome Atlas (TCGA), I will only take breast cancer(BRCA) as an example to introduce the processing of the raw data, the data are available for download at [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)) (See `/Raw_Data` for raw data of BRCA, other raw cancer data you can download from TCGA), and the specific process is described in `./Preprocessing`
+Due to the huge amount of raw data in The Cancer Genome Atlas (TCGA), I will only take breast cancer(BRCA) as an example to introduce the processing of the raw data, the data are available for download at [here](https://doi.org/10.5281/zenodo.10430976) (See `/Raw_Data` for raw data of BRCA, other raw cancer data you can download from TCGA), and the specific process is described in `./Preprocessing`
 
-At the same time, the remaining processed cancer data is also available [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)).
+At the same time, the remaining processed cancer data is also available [here](https://doi.org/10.5281/zenodo.7674019).
 
 **Step 2:** Network construction.
 
-Before proceeding with the network construction, make sure you have downloaded the data from [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976)), then put the `data` from the downloaded files into `./Network` and put the `ceRNA` directory in `./Network/ceRNA`.
+Before proceeding with the network construction, make sure you have downloaded the data from [here](https://doi.org/10.5281/zenodo.10430976), then put the `data` from the downloaded files into `./Network` and put the `ceRNA` directory in `./Network/ceRNA`.
 
 1、 Construct specific networks
 
@@ -79,13 +79,13 @@ You can use the following code to convert an adjacency matrix to an adjacency ta
 matlab demo_pair2table.m
 ```
 
-Here we also provide all the cancers we use that have been constructed for the network, which you can find [here]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976))(See `/Network_Data` for individual cancer networks).
+Here we also provide all the cancers we use that have been constructed for the network, which you can find [here](https://doi.org/10.5281/zenodo.10430976)(See `/Network_Data` for individual cancer networks).
 
 **Step 3:** Network embedding.
 
 Before performing the network embedding you need to ensure that the network data has been placed in `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
 
-If you want to do network embedding directly, you can use the [network data]([https://doi.org/10.5281/zenodo.7674019](https://doi.org/10.5281/zenodo.10430976))(`/Network_Data`) we have already constructed, and you will need to put it into `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
+If you want to do network embedding directly, you can use the [network data](https://doi.org/10.5281/zenodo.10430976)(`/Network_Data`) we have already constructed, and you will need to put it into `./Cancer_MANE/attention/Node_Classification/data/networks/Cancer`.
 
 ```
 cd ./Cancer_MANE/attention/Node_Classification
@@ -124,15 +124,25 @@ We also downloaded 45 biological traits from DORGE [5].
 To evaluate the IMI-Driver, an unbiased and comprehensive set of known cancer genes is needed. Unfortunately, there is no such gold standard set of cancer genes, and each cancer gene set is biased toward particular features or study methods. In this work, we used nine cancer driver datasets (see Supplementary Table 2 for more details) to validate our approach, such as Cancer Gene Census (CGC; Tier 1; January 2019) [6], CGCpointMut, 20/20 Rule [7], HCD [8], OncoGene [9], CTAT, MouseMut [10], ConsistentSet and IntOGen [11], where IntOGen is a tumor-specific dataset. We selected 17 cancers that were shared between IntOGen and TCGA data when this data set was used to validate IMI-Driver.
 
 > [1]Goldman MJ, Craft B, Hastie M, et al. Visualizing and interpreting cancer genomics data via the Xena platform. Nat Biotechnol 2020; 38:675–678
+>
 > [2]Szklarczyk D, Gable AL, Nastou KC, et al. The STRING database in 2021: customizable protein–protein networks, and functional characterization of user-uploaded gene/measurement sets. Nucleic Acids Res 2021; 49:D605–D612
+>
 > [3]Klukas C, Schreiber F. Dynamic exploration and editing of KEGG pathway diagrams. Bioinformatics 2007; 23:344–350
+>
 > [4]Han H, Cho J-W, Lee S, et al. TRRUST v2: an expanded reference database of human and mouse transcriptional regulatory interactions. Nucleic Acids Res 2018; 46:D380–D386
+>
 > [5]Lyu J, Li JJ, Su J, et al. DORGE: Discovery of Oncogenes and tumoR suppressor genes using Genetic and Epigenetic features. Science Advances 2020; 6:eaba6784
+>
 > [6]Sondka Z, Bamford S, Cole CG, et al. The COSMIC Cancer Gene Census: describing genetic dysfunction across all human cancers. Nat Rev Cancer 2018; 18:696–705
+>
 > [7]Vogelstein B, Papadopoulos N, Velculescu VE, et al. Cancer Genome Landscapes. Science 2013; 339:1546–1558
+>
 > [8]Tamborero D, Gonzalez-Perez A, Perez-Llamas C, et al. Comprehensive identification of mutational cancer driver genes across 12 tumor types. Sci Rep 2013; 3:2650
+>
 > [9]Liu Y, Sun J, Zhao M. ONGene: A literature-based database for human oncogenes. J Genet Genomics 2017; 44:119–121
+>
 > [10]Kim E, Hwang S, Kim H, et al. MouseNet v2: a database of gene networks for studying the laboratory mouse and eight other model vertebrates. Nucleic Acids Res 2016; 44:D848-854
+>
 > [11]Gonzalez-Perez A, Perez-Llamas C, Deu-Pons J, et al. IntOGen-mutations identifies cancer drivers across tumor types. Nat Methods 2013; 10:1081–1082
 
 ## Contact
