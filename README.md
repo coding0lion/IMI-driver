@@ -145,6 +145,15 @@ To evaluate the IMI-Driver, an unbiased and comprehensive set of known cancer ge
 >
 > [11]Gonzalez-Perez A, Perez-Llamas C, Deu-Pons J, et al. IntOGen-mutations identifies cancer drivers across tumor types. Nat Methods 2013; 10:1081–1082
 
+## Citation
+
+`Shi P & Zhou X."IMI-driver: integrating multi-level gene networks and multi-omics for cancer driver gene identification". In preparation.`
+
+## License
+- For academic research, please refer to MIT license.
+
+- For commerical usage, please contact the authors.
+
 ## Contact
 
 - Peiting Shi [lion23@webmail.hzau.edu.cn](mailto:lion23@webmail.hzau.edu.cn)
