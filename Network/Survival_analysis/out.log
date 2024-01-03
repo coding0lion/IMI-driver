@@ -1,0 +1,1463 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+clinic_path =
+
+    '../data/ACC/ACC_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/ACC/ACC_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0073847    0.0050113
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.0512               0.43396     2.5464 
+
+      UL       Standard_error       z       alpha    two_tailed_p_value      Comment  
+    _______    ______________    _______    _____    __________________    ___________
+
+    0.24506        2.2154        0.11508    0.05          0.90838          'Accept Ho'
+
+
+p =
+
+    0.9084
+
+
+p_mRNA =
+
+    0.9084
+
+
+clinic_path =
+
+    '../data/ACC/ACC_clinic.mat'
+
+
+met_path =
+
+    '../data/ACC/ACC_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/ACC/ACC_clinic.mat'
+
+
+sm_path =
+
+    '../data/ACC/ACC_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/BLCA/BLCA_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/BLCA/BLCA_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0014852    0.0066105
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.46955               0.25754    0.85611 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    8.0505        3.2633        2.3138    0.05          0.020681         'Reject Ho'
+
+
+p =
+
+    0.0207
+
+
+p_mRNA =
+
+    0.0207
+
+
+clinic_path =
+
+    '../data/BLCA/BLCA_clinic.mat'
+
+
+met_path =
+
+    '../data/BLCA/BLCA_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/BLCA/BLCA_clinic.mat'
+
+
+sm_path =
+
+    '../data/BLCA/BLCA_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0035391
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.90912               0.13264     6.2311 
+
+       UL       Standard_error       z       alpha    two_tailed_p_value      Comment  
+    ________    ______________    _______    _____    __________________    ___________
+
+    0.098788        1.0183        0.39401    0.05          0.69357          'Accept Ho'
+
+
+p_sm =
+
+    0.6936
+
+
+high_num =
+
+     2
+
+
+low_num =
+
+   219
+
+
+clinic_path =
+
+    '../data/BRCA/BRCA_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/BRCA/BRCA_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0033056    0.0024638
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.1473                0.8951    1.4707  
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    8.5666        7.8946        1.0218    0.05          0.30688          'Accept Ho'
+
+
+p =
+
+    0.3069
+
+
+p_mRNA =
+
+    0.3069
+
+
+clinic_path =
+
+    '../data/BRCA/BRCA_clinic.mat'
+
+
+met_path =
+
+    '../data/BRCA/BRCA_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/BRCA/BRCA_clinic.mat'
+
+
+sm_path =
+
+    '../data/BRCA/BRCA_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/CESC/CESC_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/CESC/CESC_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0086004    0.0028635
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.60468               0.30794     1.1874 
+
+      UL      Standard_error      z      alpha    two_tailed_p_value      Comment  
+    ______    ______________    _____    _____    __________________    ___________
+
+    4.2439        2.9045        1.289    0.05           0.1974          'Accept Ho'
+
+
+p =
+
+    0.1974
+
+
+p_mRNA =
+
+    0.1974
+
+
+clinic_path =
+
+    '../data/CESC/CESC_clinic.mat'
+
+
+met_path =
+
+    '../data/CESC/CESC_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/CESC/CESC_clinic.mat'
+
+
+sm_path =
+
+    '../data/CESC/CESC_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0060602
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.33045               0.13751    0.79413 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    5.5333        2.2354        2.2516    0.05          0.024347         'Reject Ho'
+
+
+p_sm =
+
+    0.0243
+
+
+high_num =
+
+     3
+
+
+low_num =
+
+    97
+
+
+clinic_path =
+
+    '../data/ESCA/ESCA_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/ESCA/ESCA_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0051141
+
+    Mantel_Haenszel_Hazard_ratio      Confidence_Interval   
+    ____________________________    ________________________
+
+              0.020841              0.00078708       0.55182
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    1.3853       0.59823        1.4799    0.05          0.13891          'Accept Ho'
+
+
+p =
+
+    0.1389
+
+
+p_mRNA =
+
+    0.1389
+
+
+clinic_path =
+
+    '../data/ESCA/ESCA_clinic.mat'
+
+
+met_path =
+
+    '../data/ESCA/ESCA_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/ESCA/ESCA_clinic.mat'
+
+
+sm_path =
+
+    '../data/ESCA/ESCA_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/HNSC/HNSC_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/HNSC/HNSC_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0032601    0.0036847
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.95862               0.55349     1.6603 
+
+      UL       Standard_error       z        alpha    two_tailed_p_value      Comment  
+    _______    ______________    ________    _____    __________________    ___________
+
+    0.53819        3.5686        0.010702    0.05          0.99146          'Accept Ho'
+
+
+p =
+
+    0.9915
+
+
+p_mRNA =
+
+    0.9915
+
+
+clinic_path =
+
+    '../data/HNSC/HNSC_clinic.mat'
+
+
+met_path =
+
+    '../data/HNSC/HNSC_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/HNSC/HNSC_clinic.mat'
+
+
+sm_path =
+
+    '../data/HNSC/HNSC_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0030353
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.24635               0.11057    0.54888 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    8.3857        2.4465        3.2232    0.05         0.0012676         'Reject Ho'
+
+
+p_sm =
+
+    0.0013
+
+
+high_num =
+
+     3
+
+
+low_num =
+
+   250
+
+
+clinic_path =
+
+    '../data/LGG/LGG_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/LGG/LGG_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   ________    ________
+
+    Hazard_rate    0.003255    0.003283
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.0546               0.65144     1.7074 
+
+      UL       Standard_error       z        alpha    two_tailed_p_value      Comment  
+    _______    ______________    ________    _____    __________________    ___________
+
+    0.88052        4.0683        0.093534    0.05          0.92548          'Accept Ho'
+
+
+p =
+
+    0.9255
+
+
+p_mRNA =
+
+    0.9255
+
+
+clinic_path =
+
+    '../data/LGG/LGG_clinic.mat'
+
+
+met_path =
+
+    '../data/LGG/LGG_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/LGG/LGG_clinic.mat'
+
+
+sm_path =
+
+    '../data/LGG/LGG_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/LUAD/LUAD_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/LUAD/LUAD_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1     Curve_2
+                   _________    _______
+
+    Hazard_rate    0.0014691      NaN  
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.95297                0.5464    1.6621  
+
+      UL       Standard_error       z        alpha    two_tailed_p_value      Comment  
+    _______    ______________    ________    _____    __________________    ___________
+
+    0.59817        3.5237        0.027861    0.05          0.97777          'Accept Ho'
+
+
+p =
+
+    0.9778
+
+
+p_mRNA =
+
+    0.9778
+
+
+clinic_path =
+
+    '../data/LUAD/LUAD_clinic.mat'
+
+
+met_path =
+
+    '../data/LUAD/LUAD_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/LUAD/LUAD_clinic.mat'
+
+
+sm_path =
+
+    '../data/LUAD/LUAD_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1    Curve_2
+                   _______    _______
+
+    Hazard_rate      NaN        NaN  
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.26598               0.10712    0.66043 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    6.1509        2.1551        2.6221    0.05         0.0087397         'Reject Ho'
+
+
+p_sm =
+
+    0.0087
+
+
+high_num =
+
+     2
+
+
+low_num =
+
+   226
+
+
+clinic_path =
+
+    '../data/LUSC/LUSC_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/LUSC/LUSC_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1    Curve_2
+                   _______    _______
+
+    Hazard_rate      NaN        NaN  
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.2022               0.77776     1.8584 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    3.7303        4.5002        0.7178    0.05          0.47288          'Accept Ho'
+
+
+p =
+
+    0.4729
+
+
+p_mRNA =
+
+    0.4729
+
+
+clinic_path =
+
+    '../data/LUSC/LUSC_clinic.mat'
+
+
+met_path =
+
+    '../data/LUSC/LUSC_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/LUSC/LUSC_clinic.mat'
+
+
+sm_path =
+
+    '../data/LUSC/LUSC_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1    Curve_2
+                   _______    _______
+
+    Hazard_rate      NaN        NaN  
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.27699               0.11915    0.64392 
+
+     UL     Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ____    ______________    ______    _____    __________________    ___________
+
+    6.93        2.3234        2.7675    0.05         0.0056488         'Reject Ho'
+
+
+p_sm =
+
+    0.0056
+
+
+high_num =
+
+     2
+
+
+low_num =
+
+   256
+
+
+clinic_path =
+
+    '../data/PAAD/PAAD_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/PAAD/PAAD_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1     Curve_2 
+                   _________    ________
+
+    Hazard_rate    0.0075999    0.003308
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval 
+    ____________________________    ____________________
+
+              0.23062               0.037574      1.4155
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    1.7117        1.0802        1.1218    0.05          0.26196          'Accept Ho'
+
+
+p =
+
+    0.2620
+
+
+p_mRNA =
+
+    0.2620
+
+
+clinic_path =
+
+    '../data/PAAD/PAAD_clinic.mat'
+
+
+met_path =
+
+    '../data/PAAD/PAAD_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/PAAD/PAAD_clinic.mat'
+
+
+sm_path =
+
+    '../data/PAAD/PAAD_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0046589
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval 
+    ____________________________    ____________________
+
+              0.17856               0.038984     0.81787
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    2.8579        1.288         1.8307    0.05          0.067139         'Accept Ho'
+
+
+p_sm =
+
+    0.0671
+
+
+high_num =
+
+     2
+
+
+low_num =
+
+   102
+
+
+clinic_path =
+
+    '../data/PCPG/PCPG_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/PCPG/PCPG_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0044604    0.0039119
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.1241               0.54539     2.3169 
+
+      UL      Standard_error       z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    _______    _____    __________________    ___________
+
+    0.8592         2.71         0.13254    0.05          0.89455          'Accept Ho'
+
+
+p =
+
+    0.8946
+
+
+p_mRNA =
+
+    0.8946
+
+
+clinic_path =
+
+    '../data/PCPG/PCPG_clinic.mat'
+
+
+met_path =
+
+    '../data/PCPG/PCPG_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/PCPG/PCPG_clinic.mat'
+
+
+sm_path =
+
+    '../data/PCPG/PCPG_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/PRAD/PRAD_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/PRAD/PRAD_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0058593    0.0059655
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.3945               0.89145     2.1815 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    6.3806        4.3803        1.3425    0.05          0.17943          'Accept Ho'
+
+
+p =
+
+    0.1794
+
+
+p_mRNA =
+
+    0.1794
+
+
+clinic_path =
+
+    '../data/PRAD/PRAD_clinic.mat'
+
+
+met_path =
+
+    '../data/PRAD/PRAD_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/PRAD/PRAD_clinic.mat'
+
+
+sm_path =
+
+    '../data/PRAD/PRAD_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1     Curve_2 
+                   _______    _________
+
+    Hazard_rate      NaN      0.0044867
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.0218                0.1367    7.6381  
+
+       UL       Standard_error       z       alpha    two_tailed_p_value      Comment  
+    ________    ______________    _______    _____    __________________    ___________
+
+    0.020499       0.97437        0.49211    0.05          0.62264          'Accept Ho'
+
+
+p_sm =
+
+    0.6226
+
+
+high_num =
+
+     2
+
+
+low_num =
+
+    90
+
+
+clinic_path =
+
+    '../data/THCA/THCA_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/THCA/THCA_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0036675    0.0034826
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.0604               0.70888     1.5862 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    1.3892        4.8669        0.1827    0.05          0.85504          'Accept Ho'
+
+
+p =
+
+    0.8550
+
+
+p_mRNA =
+
+    0.8550
+
+
+clinic_path =
+
+    '../data/THCA/THCA_clinic.mat'
+
+
+met_path =
+
+    '../data/THCA/THCA_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/THCA/THCA_clinic.mat'
+
+
+sm_path =
+
+    '../data/THCA/THCA_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/THYM/THYM_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/THYM/THYM_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0026485    0.0031799
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+              0.77428               0.38384     1.5619 
+
+      UL      Standard_error       z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    _______    _____    __________________    ___________
+
+    1.9959        2.7932        0.53556    0.05          0.59227          'Accept Ho'
+
+
+p =
+
+    0.5923
+
+
+p_mRNA =
+
+    0.5923
+
+
+clinic_path =
+
+    '../data/THYM/THYM_clinic.mat'
+
+
+met_path =
+
+    '../data/THYM/THYM_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/THYM/THYM_clinic.mat'
+
+
+sm_path =
+
+    '../data/THYM/THYM_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/UCEC/UCEC_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/UCEC/UCEC_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1      Curve_2 
+                   _________    _________
+
+    Hazard_rate    0.0029767    0.0065921
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               0.3934               0.13545     1.1425 
+
+      UL      Standard_error      z      alpha    two_tailed_p_value      Comment  
+    ______    ______________    _____    _____    __________________    ___________
+
+    3.1527        1.8383        1.443    0.05          0.14901          'Accept Ho'
+
+
+p =
+
+    0.1490
+
+
+p_mRNA =
+
+    0.1490
+
+
+clinic_path =
+
+    '../data/UCEC/UCEC_clinic.mat'
+
+
+met_path =
+
+    '../data/UCEC/UCEC_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/UCEC/UCEC_clinic.mat'
+
+
+sm_path =
+
+    '../data/UCEC/UCEC_somatic_mutation.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                   Curve_1      Curve_2 
+                   ________    _________
+
+    Hazard_rate    0.022437    0.0039716
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               1.3098               0.58011     2.9571 
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    1.5631        2.4067        0.4417    0.05          0.65871          'Accept Ho'
+
+
+p_sm =
+
+    0.6587
+
+
+high_num =
+
+     9
+
+
+low_num =
+
+   134
+
+
+clinic_path =
+
+    '../data/UCS/UCS_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/UCS/UCS_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1     Curve_2
+                   _________    _______
+
+    Hazard_rate    0.0029275      NaN  
+
+    Mantel_Haenszel_Hazard_ratio      Confidence_Interval   
+    ____________________________    ________________________
+
+             7.5826e-10             7.6334e-14     7.532e-06
+
+      UL       Standard_error      z       alpha    two_tailed_p_value      Comment  
+    _______    ______________    ______    _____    __________________    ___________
+
+    0.95238       0.21296        2.1243    0.05          0.033648         'Reject Ho'
+
+
+p =
+
+    0.0336
+
+
+p_mRNA =
+
+    0.0336
+
+
+clinic_path =
+
+    '../data/UCS/UCS_clinic.mat'
+
+
+met_path =
+
+    '../data/UCS/UCS_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/UCS/UCS_clinic.mat'
+
+
+sm_path =
+
+    '../data/UCS/UCS_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/UVM/UVM_clinic.mat'
+
+
+mRNA_path =
+
+    '../data/UVM/UVM_gene_expression_RNAseq.mat'
+
+LOG-RANK TEST FOR KAPLAN-MEIER SURVIVAL FUNCTIONS
+------------------------------------------------------------------------------------------
+                    Curve_1     Curve_2
+                   _________    _______
+
+    Hazard_rate    0.0012655      NaN  
+
+    Mantel_Haenszel_Hazard_ratio    Confidence_Interval
+    ____________________________    ___________________
+
+               2446.3                82.437     72592  
+
+      UL      Standard_error      z       alpha    two_tailed_p_value      Comment  
+    ______    ______________    ______    _____    __________________    ___________
+
+    2.6077       0.57812        3.6458    0.05         0.00026653        'Reject Ho'
+
+
+p =
+
+   2.6653e-04
+
+
+p_mRNA =
+
+   2.6653e-04
+
+
+clinic_path =
+
+    '../data/UVM/UVM_clinic.mat'
+
+
+met_path =
+
+    '../data/UVM/UVM_met.mat'
+
+
+p_met =
+
+   NaN
+
+
+clinic_path =
+
+    '../data/UVM/UVM_clinic.mat'
+
+
+sm_path =
+
+    '../data/UVM/UVM_somatic_mutation.mat'
+
+
+p_sm =
+
+   NaN
+
+
+high_num =
+
+   NaN
+
+
+low_num =
+
+   NaN
+
+[Warning: Could not start Excel server for export.
+XLSWRITE will attempt to write file in CSV format.] 
+[> In xlswrite (line 181)
+  In survival_an (line 18)] 
+[Warning: Could not start Excel server for export.
+XLSWRITE will attempt to write file in CSV format.] 
+[> In xlswrite (line 181)
+  In survival_an (line 19)] 
