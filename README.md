@@ -32,8 +32,8 @@ Due to the fact that many network construction algorithms stem from methods prev
 Compatible with both cuda and cpu devices, depending on the user choice through arg_parser file. Also compatible with python2 and python3.
 
 ```
-git clone --recursive https://github.com/epifluidlab/CRAG.git
-cd CRAG
+git clone --recursive https://github.com/coding0lion/IMI-Driver.git
+cd IMI-driver
 ```
 
 Then create the virtual environment, activate it, and install the dependencies:
